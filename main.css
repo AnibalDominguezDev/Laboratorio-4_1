@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(106, 100%, 94%);
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+}
+
+.parametros div{
+    margin-top: 15px;
+}
+
+.parametros{
+    padding: 60px;
+
+}
+
+.parametros input {
+    display: block;
+    padding: 4px;
+    margin-top: 5px;
+    min-width: 100px;
+}
+
+.parametros button {
+    min-width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+}
